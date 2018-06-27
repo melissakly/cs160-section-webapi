@@ -27,7 +27,7 @@
 
 
     /*you only need to edit this url*/
-    var my_query_url="http://webservices.nextbus.com/service/publicJSONFeed?command=predictions&a=actransit&r=51B&s=0301740";
+    var my_query_url="http://webservices.nextbus.com/service/publicJSONFeed?command=predictionsForMultiStops&a=actransit&stops=51B|0301740&stops=51B|0301980";
 
     /*you don't need to change the code below*/
     $.getJSON(my_query_url, function(data){
